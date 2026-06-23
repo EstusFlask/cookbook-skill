@@ -1,0 +1,4 @@
+interface:
+  display_name: "食谱总结"
+  short_description: "从烹饪视频或字幕生成忠实完整的Markdown食谱文件。"
+  default_prompt: "Use $cookbook-skill to summarize a cooking video or subtitles into a complete Markdown recipe."
