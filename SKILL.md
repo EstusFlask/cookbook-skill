@@ -22,6 +22,14 @@ Create a Markdown recipe file from a cooking video, subtitle file, or transcript
 4. Write or update one Markdown file. If the user did not provide an output path, choose a concise filename from the dish name or source basename.
 5. Verify completeness against the source before finalizing.
 
+## Concise Mode
+
+If the request includes `/cookbook-skill concise` or asks for concise output, write a clean recipe without source-provenance notes. Preserve useful cooking information, but remove parentheticals or clauses whose only purpose is to explain where the information came from, such as `字幕说明`, `视频里提到`, `画面看到`, or `原作者说`.
+
+- Write `吐司或其他面包`, not `吐司或其他面包（字幕说明用吐司，其他面包也可以）`.
+- Keep substantive recipe details: quantities, required tools, warnings, substitutions, timing, temperature, texture cues, and doneness cues.
+- If an element is genuinely not stated, write `未明确说明` instead of `原视频/字幕未明确说明`.
+
 ## Markdown Format
 
 Use this structure exactly:
