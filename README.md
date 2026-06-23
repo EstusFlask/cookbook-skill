@@ -1,6 +1,7 @@
 # 总结菜谱的skill
 # recipe summarize skill
 从视频或者字幕里总结菜谱做法
+
 Summarize recipe from videos or subtitles.
 | 能力 | 命令 | 说明 |
 |------|------|------|
